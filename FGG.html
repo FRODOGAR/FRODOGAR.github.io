@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Tazas</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .item {
+      width: 300px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #222;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    
+    .item h2 {
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    
+    .item p {
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+    
+    .item .price {
+      font-weight: bold;
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Tazas</h1>
+  
+  <div class="container">
+    <div class="item">
+      <img src="medidores%20BDG.jpg" alt="medidores principal y respaldo BDG">
+      <h2>medidores principal y respaldo BDG</h2>
+      <p>Descripción de la taza clásica.</p>
+      <p class="price">Precio: $10</p>
+    </div>
+    
+    <div class="item">
+      <img src="taza2.jpg" alt="Taza 2">
+      <h2>Taza de Colores</h2>
+      <p>Descripción de la taza de colores.</p>
+      <p class="price">Precio: $12</p>
+    </div>
+    
+    <!-- Agrega más tazas aquí -->
+    
+  </div>
+</body>
+</html>
+
